@@ -10,5 +10,31 @@ public class Order {
         this.problem = problem;
         System.out.println("Dane Zamówienia: \n" +  "Urządzenie - " + this.device + "\n" + "Model - " + this.model + "\n" + "Usterka - " + this.problem);
     }
+
+    public String getDevice() {
+        return device;
+    }
+
+    public void setDevice(String device) {
+        this.device = device;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getProblem() {
+        return problem;
+    }
+
+    public void setProblem(String problem) {
+        this.problem = problem;
+    }
+
+
     
 }
